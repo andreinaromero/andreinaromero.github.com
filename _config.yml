@@ -2,11 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
-simple_search: http://google.com/search
+url: http://andreinaromero.com
+title: Mi Blog Personal
+subtitle: Un espacio para escribir
+author: Andreína Romero
+simple_search: http://google.com/andreina romero
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
