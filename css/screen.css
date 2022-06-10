@@ -816,6 +816,10 @@ a.fn-item.active {
   background: #22343a;
 }
 
+.bottom {
+  bottom: -300px;
+}
+
 .site-footer a {
   color: #bbc7cc;
   text-decoration: underline;
@@ -1103,6 +1107,8 @@ a.fn-item.active {
     /*margin-top: 0.8rem;*/
     font-size: 1.1rem;
   }
+}
+
 }
 
 /* ==========================================================================

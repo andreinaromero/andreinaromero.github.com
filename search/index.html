@@ -38,13 +38,15 @@ Aprendamos juntos de repostería
 <br></br>
 <div>
 <form action=/search/ method=get>
+<div class=centered>
 <input type=search name=q id=search-query placeholder=Search....>
-<button type=submit>Search</button>
+<button class=button type=submit>Search</button>
+</div>
 </form>
 </div>
 <br></br>
 <main>
-<div id=search-results></div>
+<div id=search-results class=padding></div>
 <div class=search-loading>Loading...</div>
 <script id=search-result-template type=text/x-js-template>
 
@@ -56,7 +58,7 @@ Aprendamos juntos de repostería
 <script src=https://cdn.jsdelivr.net/npm/fuse.js@6.6.0></script>
 <script src=/js/search.js></script>
 </main>
-<footer class=site-footer>
+<footer class="site-footer bottom">
 <div class=inner>
 <section class=copyright>© Andreina Romero</section>
 <section></section>
