@@ -392,3 +392,45 @@
     font-size: 2.6rem;
   }
 }
+
+/* Banner de Políticas de Pedidos */
+.catalog-policy-banner {
+  background: rgba(253, 246, 239, 0.95);
+  border: 1px solid rgba(210, 180, 140, 0.4);
+  border-left: 5px solid var(--color-bakery-accent);
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 4px 15px rgba(140, 98, 57, 0.03);
+}
+
+.catalog-policy-icon {
+  font-size: 2.2rem;
+  color: var(--color-bakery-primary);
+  flex-shrink: 0;
+}
+
+.catalog-policy-text {
+  font-size: 1.35rem;
+  line-height: 1.5em;
+  color: var(--color-text-dark);
+  margin: 0;
+}
+
+.catalog-policy-text strong {
+  color: var(--color-bakery-primary);
+  font-weight: 600;
+}
+
+.teaser-policy-note {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--color-text-muted);
+  margin-top: -25px;
+  margin-bottom: 35px;
+  font-style: italic;
+}
+
